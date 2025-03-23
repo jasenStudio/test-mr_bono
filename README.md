@@ -3,7 +3,7 @@
 
 Prueba backend api rest
 
-1. Descargar respositorio .......
+1. Descargar respositorio [git@github.com:jasenStudio/test-mr_bono.git](https://github.com/jasenStudio/test-mr_bono)
 2. tener docker destop instalado y ejecutarlo , si no lo tiene puede descargarlo de https://www.docker.com/products/docker-desktop/ 
 3. EJecutar el siguiente comando ```docker compose up --build ``` en la raiz de proyecto y verificar si el contenedor de bd esta arriba
 4. copia env.template y renombrelo a .env para la variables entornos, para este proyecto ya deje configurada las credenciales por cuestion de facilidad
