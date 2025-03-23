@@ -1,0 +1,10 @@
+services:
+  postgres-db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: mr_bono_db
+      POSTGRES_USER: admin
+    ports:
+      - 5433:5432

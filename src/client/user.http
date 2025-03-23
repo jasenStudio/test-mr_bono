@@ -1,0 +1,47 @@
+
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imphc2FsZ2Fkb2VAZ21haWwuY29tIiwiaWQiOjEsInJvbCI6IkFETUlOIiwiaWF0IjoxNzQyNjk1Mjk4LCJleHAiOjE3NDI3MDI0OTh9.34_98gbKH3m_kDGbjLQvbTv8Uv7oNo9j6Q81jf5WU2w
+###
+POST http://localhost:3000/api/user/new
+Content-Type: application/json 
+Authorization: Bearer {{ token }}
+
+{
+  "name":"melissa",
+  "email":"mellssa@gmail.com",
+  "rol":"USER"
+}
+
+
+###
+GET http://localhost:3000/api/user
+Content-Type: application/json 
+Authorization: Bearer {{ token }}
+
+{
+
+}
+
+###
+GET http://localhost:3000/api/user/1
+Content-Type: application/json 
+Authorization: Bearer {{ token }}
+
+{}
+
+
+
+###
+PATCH  http://localhost:3000/api/user/1
+Content-Type: application/json 
+
+{
+   "email":"jasalgadoe@gmail.com"
+}
+
+###
+DELETE  http://localhost:3000/api/user/5
+Content-Type: application/json 
+
+{
+  
+}
