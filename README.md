@@ -11,5 +11,5 @@ Prueba backend api rest
 5. EJeuctar ```npm run start:dev``` para iniciar el servidor.
 6. visitar http://localhost:3000/docs#/ para documentacion de endpoint
 7. Agrege un usuario desde a la db mediante gestor de base de datos com tableplus o workbench
-https://tableplus.com/
+https://tableplus.com/ con la credenciales del .env
 
